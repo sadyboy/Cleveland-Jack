@@ -14,8 +14,7 @@ struct ProgressDashboardView: View {
                     
                     QuickStatsSection(
                         questVM: questVM,
-                        workoutVM: workoutVM,
-                        
+                        workoutVM: workoutVM
                     )
                     
                     ProgressChartsSection()
