@@ -237,7 +237,7 @@ struct MainDashboardView: View {
     private var quickStartButton: some View {
         Button(action: {
             // Quick start workout
-            if let workout = workoutVM.featuredWorkouts.first {
+            if workoutVM.featuredWorkouts.first != nil {
                 activeCard = .workouts
                 showingDetail = true
             }
