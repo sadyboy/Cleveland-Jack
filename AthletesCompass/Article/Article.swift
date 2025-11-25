@@ -43,6 +43,158 @@ struct Article: Identifiable, Codable {
 // MARK: - Enhanced Mock Data with English Content
 extension Article {
     static var mockData: [Article] = [
+        // Training Articles
+        Article(
+            id: UUID(),
+            title: "Progressive Overload Mastery",
+            subtitle: "The fundamental principle of strength training",
+            content: """
+            Progressive overload is the cornerstone of all strength and muscle growth. Without consistently challenging your muscles, progress stalls. The key is systematic progression in volume, intensity, or frequency.
+            
+            Methods of Progressive Overload:
+            • Increase weight while maintaining reps
+            • Increase reps with same weight
+            • Increase sets for more volume
+            • Improve form and mind-muscle connection
+            • Reduce rest time between sets
+            
+            Weekly Progression Strategy:
+            - Week 1: Establish baseline with perfect form
+            - Week 2: Add 1-2 reps to each working set
+            - Week 3: Increase weight by 2.5-5%
+            - Week 4: Deload and consolidate gains
+            
+            Track every workout and aim for small, consistent improvements. Progress isn't always linear, but the trend should always be upward.
+            """,
+            author: "Coach Mike Johnson",
+            publishDate: Date().addingTimeInterval(-86400 * 2),
+            category: .training,
+            readingTime: 8,
+            isFeatured: true,
+            difficulty: .beginner,
+            tags: ["progressive overload", "strength", "programming", "basics"],
+            quiz: [
+                ArticleQuizQuestion(
+                    question: "What is the most basic form of progressive overload?",
+                    correctAnswer: "Adding more weight",
+                    options: ["Adding more sets", "Adding more weight", "Changing exercises", "Increasing rest time"]
+                ),
+                ArticleQuizQuestion(
+                    question: "How often should you typically increase weight?",
+                    correctAnswer: "Every 1-2 weeks",
+                    options: ["Every day", "Every 1-2 weeks", "Once a month", "Every 6 months"]
+                ),
+                ArticleQuizQuestion(
+                    question: "What is a deload week for?",
+                    correctAnswer: "Recovery and preventing overtraining",
+                    options: ["Maximum intensity", "Recovery and preventing overtraining", "Testing 1RM", "Learning new exercises"]
+                )
+            ]
+        ),
+        
+        Article(
+            id: UUID(),
+            title: "Compound vs Isolation Exercises",
+            subtitle: "When to use each for maximum results",
+            content: """
+            Understanding when to use compound versus isolation exercises can dramatically impact your training efficiency and results.
+            
+            Compound Exercises:
+            • Work multiple muscle groups simultaneously
+            • Examples: Squats, Deadlifts, Bench Press, Pull-ups
+            • Best for: Strength, functional fitness, time efficiency
+            • Ideal for: Main workout movements
+            
+            Isolation Exercises:
+            • Target single muscle groups
+            • Examples: Bicep Curls, Tricep Extensions, Leg Extensions
+            • Best for: Muscle definition, weak point training
+            • Ideal for: Accessory work, rehabilitation
+            
+            Smart Programming Ratio:
+            - Beginners: 80% compound, 20% isolation
+            - Intermediate: 70% compound, 30% isolation  
+            - Advanced: 60% compound, 40% isolation
+            
+            Always prioritize compound movements in your main workout, then use isolation exercises to address specific needs.
+            """,
+            author: "Dr. Sarah Chen",
+            publishDate: Date().addingTimeInterval(-86400 * 4),
+            category: .training,
+            readingTime: 10,
+            isFeatured: false,
+            difficulty: .beginner,
+            tags: ["compound", "isolation", "exercise selection", "programming"],
+            quiz: [
+                ArticleQuizQuestion(
+                    question: "Which is a compound exercise?",
+                    correctAnswer: "Squat",
+                    options: ["Bicep curl", "Squat", "Tricep extension", "Calf raise"]
+                ),
+                ArticleQuizQuestion(
+                    question: "What percentage of workout should be compound for beginners?",
+                    correctAnswer: "80%",
+                    options: ["50%", "60%", "80%", "90%"]
+                ),
+                ArticleQuizQuestion(
+                    question: "When are isolation exercises most useful?",
+                    correctAnswer: "Targeting specific muscle groups",
+                    options: ["Building maximum strength", "Targeting specific muscle groups", "Improving cardiovascular health", "Learning proper form"]
+                )
+            ]
+        ),
+        
+        Article(
+            id: UUID(),
+            title: "Training Frequency Optimization",
+            subtitle: "How often should you train each muscle group?",
+            content: """
+            Training frequency is one of the most debated topics in fitness. The optimal frequency depends on your experience level, recovery capacity, and specific goals.
+            
+            Frequency Guidelines:
+            • Beginners: 2-3 times per week (full body)
+            • Intermediate: 4-5 times per week (upper/lower or push/pull/legs)
+            • Advanced: 5-6 times per week (specialized splits)
+            
+            Key Considerations:
+            - Volume per session matters more than frequency alone
+            - Larger muscle groups need more recovery time
+            - Listen to your body - soreness doesn't always mean growth
+            - Quality over quantity always applies
+            
+            Sample Splits:
+            Full Body (3x/week): Monday, Wednesday, Friday
+            Upper/Lower (4x/week): Upper Mon/Thu, Lower Tue/Fri
+            PPL (6x/week): Push, Pull, Legs, repeat
+            
+            The best split is the one you can consistently follow while making progress.
+            """,
+            author: "Coach Rachel Martinez",
+            publishDate: Date().addingTimeInterval(-86400 * 1),
+            category: .training,
+            readingTime: 12,
+            isFeatured: true,
+            difficulty: .intermediate,
+            tags: ["frequency", "splits", "recovery", "programming"],
+            quiz: [
+                ArticleQuizQuestion(
+                    question: "What's the recommended frequency for beginners?",
+                    correctAnswer: "2-3 times per week",
+                    options: ["Every day", "2-3 times per week", "Once a week", "5-6 times per week"]
+                ),
+                ArticleQuizQuestion(
+                    question: "Which split uses Push, Pull, Legs?",
+                    correctAnswer: "PPL",
+                    options: ["Full Body", "Upper/Lower", "Bro Split", "PPL"]
+                ),
+                ArticleQuizQuestion(
+                    question: "What matters more than frequency alone?",
+                    correctAnswer: "Volume per session",
+                    options: ["Exercise variety", "Volume per session", "Gym equipment", "Workout duration"]
+                )
+            ]
+        ),
+
         Article(
             id: UUID(),
             title: "The Science of Protein Timing",
@@ -101,7 +253,7 @@ Daily Recovery Stack:
 • Evening: compression + low-intensity movement  
 • Before bed: red light and deep relaxation  
 
-Optimizing recovery is not about a single magical method — it’s the synergy of multiple techniques timed correctly.
+Optimizing recovery is not about a single magical method — it's the synergy of multiple techniques timed correctly.
 """
             ,
             author: "Dr. Marcus Johnson",

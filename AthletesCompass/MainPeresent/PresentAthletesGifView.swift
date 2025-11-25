@@ -121,12 +121,10 @@ class AdaptiveRenderProfile {
     var outlineWidth: CGFloat = 2.0
     
     var colorImpact: CGFloat {
-        // Комбинация яркости и насыщенности
         return (brightness * 0.7) + (saturation * 0.3)
     }
     
     var spatialComplexity: CGFloat {
-        // Учитываем глубину, размытие и толщину контура
         return blurRadius + outlineWidth + CGFloat(depthOffset * 5)
     }
 }
