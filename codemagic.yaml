@@ -6,12 +6,12 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.clevelandjacks.hamariah
+            bundle_identifier: com.clevel.hama
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.clevelandjacks.hamariah"
+          BUNDLE_ID: "com.clevel.hama"
           XCODE_WORK: "AthletesCompass.xcodeproj"
           XCODE_SCHEME: "AthletesCompass"
           

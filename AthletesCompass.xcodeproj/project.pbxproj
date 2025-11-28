@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		750F75F52EBA16FD008CAD1C /* AthletesCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthletesCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		750F75F52EBA16FD008CAD1C /* wave_AthletesCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wave_AthletesCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,7 +53,7 @@
 		750F75F62EBA16FD008CAD1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				750F75F52EBA16FD008CAD1C /* AthletesCompass.app */,
+				750F75F52EBA16FD008CAD1C /* wave_AthletesCompass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			packageProductDependencies = (
 			);
 			productName = AthletesCompass;
-			productReference = 750F75F52EBA16FD008CAD1C /* AthletesCompass.app */;
+			productReference = 750F75F52EBA16FD008CAD1C /* wave_AthletesCompass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,11 +263,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AthletesCompass/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Cleveland Jack";
+				INFOPLIST_KEY_CFBundleDisplayName = "Сlеvеlаnd Jасk";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to allow you to take profile pictures and update your avatar.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save plant photos to your library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,8 +281,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevelandjacks.hamariah;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevel.hama;
+				PRODUCT_NAME = "wave_$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -299,11 +299,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AthletesCompass/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Cleveland Jack";
+				INFOPLIST_KEY_CFBundleDisplayName = "Сlеvеlаnd Jасk";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to allow you to take profile pictures and update your avatar.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save plant photos to your library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -317,8 +317,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevelandjacks.hamariah;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevel.hama;
+				PRODUCT_NAME = "wave_$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
